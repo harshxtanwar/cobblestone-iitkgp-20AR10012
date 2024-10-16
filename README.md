@@ -53,5 +53,24 @@ pip install -r requirements.txt
 
 ### Monitor the console output for anomaly detection results. Check the generated plot images saved in the project directory.
 
+## Explaination of the graph:
+![image](https://github.com/user-attachments/assets/02df6f8d-d9bf-4960-8dd6-352154099bee)
+
+This graph represents a time series analysis where the blue line indicates the actual data values over time, while the red dashed vertical lines highlight the detected anomalies. Here's a breakdown:
+
+X-axis (Time Step): This represents the time or sequence of the data points. The timeline progresses from left to right, showing how values change over time.
+
+Y-axis (Value): This represents the value of the data points. It could represent any metric being tracked, such as temperature, stock prices, or sensor data, depending on the context.
+
+Blue Line (Data): The blue line represents the actual data values or predictions over time. The jagged nature suggests variability in the data with fluctuations both upward and downward.
+
+Red Dashed Lines (Anomalies): The red vertical dashed lines indicate where anomalies have been detected in the time series. Anomalies are points in the data that deviate significantly from the expected pattern. For example:
+
+Spikes or dips in the data.
+Changes in trend or behavior.
+In this graph, the anomalies are spaced at various intervals, suggesting that unusual behaviors occur at those time steps, potentially signaling a fault, error, or unexpected behavior in the system being monitored.
+
+
+
 
 
